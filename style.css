@@ -48,7 +48,7 @@ img{
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color:bisque ;border-radius: 10px;
 }
 
@@ -66,13 +66,13 @@ img{
     min-height: 80px;
 }
 #menu{
-    height: 80px;
+    min-height: 80px;
 }
 #orta{
     min-height: 400px;
 } 
 #alt{
-    height: 80px;
+    height: 90px;
 }
 
 /*sosyal medya ikonları*/
@@ -88,5 +88,63 @@ img{
     list-style-type: none;
 }
 #menu #anamenu ul li{
+    border: solid 1px seagreen;
+    width: 25%;
+    float: left;
+    background-color: seagreen;
+    border-radius: 5px;
+    padding:8px ;
+    text-align: center;
+
+}
+
+/*tepkisel buton*/
+@media screen and (max-width:500px) {
+  #menu #anamenu ul li{width: 100%;}   
+}
+
+/*ana menu linkleri*/
+#menu #anamenu a{
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding:5px;
+    text-decoration: none;
+}
+
+#menu #anamenu a:hover{
+    color: rgb(36, 189, 102);
+}
+
+#menu #anamenu a:active{
+    color: brown;
+}
+
+#altmenu p a{
     
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: brown;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 25%;
+    
+} 
+
+#alt #altmenu p{
+    text-align: center;
+    color: brown;
+
+}
+
+#telif{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    float: right;
 }
