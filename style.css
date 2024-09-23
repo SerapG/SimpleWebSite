@@ -41,6 +41,7 @@
 img{
     width: 100%;
     height: auto;
+
 }
 
 /* "col-" yasla */
@@ -62,14 +63,30 @@ img{
 
 /*kutu yükseklikleri*/
 #ust{
-    height: 100px;
+    min-height: 80px;
 }
 #menu{
     height: 80px;
 }
 #orta{
     min-height: 400px;
-}
+} 
 #alt{
     height: 80px;
+}
+
+/*sosyal medya ikonları*/
+
+#icon{
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+}
+/*anamenu*/
+
+#menu #anamenu ul{
+    list-style-type: none;
+}
+#menu #anamenu ul li{
+    
 }
